@@ -1,7 +1,7 @@
 # RTX-Remix-Capture-Combiner
 
 A simple Python script using regex to merge a child capture's lights/meshes/materials/instances/cameras into a base capture. Duplicates will be accounted for and ignored.
-Instances with the same ID between the base and child but different parameters will have their ID incremented until it is unique to both the base and child.
+Instances with the same ID between the base and child but different parameters will have their ID incremented until it is unique to both the base and child.  **Requires both captures be a .usda format**
 
 Recommended you make a backup of your base capture when exeucting this script in event of unforseen issues.
 
